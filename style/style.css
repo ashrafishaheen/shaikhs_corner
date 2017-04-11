@@ -1,0 +1,61 @@
+html, body {
+       max-width: 100%;
+       overflow-x: hidden;
+			 font-family: 'Open Sans', sans-serif;
+		 }
+
+
+.page_logo{
+	border:2px solid #092032;
+	border-radius:5px;
+	margin-left:-16px;
+}
+.search_box{
+	background-color:rgba(0,0,0,0.3);
+	border-radius:5px;
+	padding: 5px 0 20px 0;
+	margin-top: : 20px;
+
+}
+.heading{
+	margin:0 0 30px 0;
+	color:#ffffff;
+	text-align:center;
+
+}
+.drop{
+	height:50px;
+	width:200px;
+
+}
+
+.drop1{
+	width:200px;
+	padding: 0px;
+
+}
+#btn_order{
+	height: 50px;
+	width: 200px;
+	background-color:#4B494C;
+	border: none;
+	color:#ffffff;
+
+	}
+	.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img  {
+      width: 80%;
+      margin: auto;
+		
+  }
+	.at_site{
+		margin: 0 0 40px 0;
+	}
+.comp{
+	padding: 50px;
+}
+	@media(max-width:790px){
+		.parallax{
+			min-height: 400px;
+		}
+	}
