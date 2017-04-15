@@ -17,19 +17,25 @@ html, body {
 	margin-top: : 20px;
 
 }
+.heading1{
+  margin:0 0 30px 0;
+	color:#ffffff;
+	text-align:center;
+}
 .heading{
 	margin:0 0 30px 0;
 	color:#ffffff;
 	text-align:center;
+  margin-top: 10px;
 
 }
-.drop{
+#sel1{
 	height:50px;
 	width:200px;
-
+  text-align: center;
 }
 
-.drop1{
+#sel2{
 	width:200px;
 	padding: 0px;
 
@@ -44,18 +50,76 @@ html, body {
 	}
 	.carousel-inner > .item > img,
   .carousel-inner > .item > a > img  {
-      width: 80%;
+      width:80%;
       margin: auto;
-		
-  }
+}
+
 	.at_site{
 		margin: 0 0 40px 0;
 	}
 .comp{
 	padding: 50px;
 }
+.footer{
+    background-color: #DCDCDC;
+}
+.social_icons{
+  margin:0 8px 10px 0;
+  color: #000000;
+}
+.thumbnail{
+  background-color: #C0C0C0;
+border: 1px solid #C0C0C0;
+border-radius: #C0C0C0;
+padding: 25px;
+line-height: 30px;
+
+}
+/*First page ends here*/
+
+
+.items{
+  margin-top:100px;
+}
+.item_c{
+  border: 2px solid black;
+  height:150px;
+  width:150px;
+  
+
+}
+
+
+
+
+
+
 	@media(max-width:790px){
 		.parallax{
 			min-height: 400px;
 		}
-	}
+    .heading{
+      font-size: 18px;
+    }
+    .at_site{
+      font-size: 22px;
+    }
+    .comp h3{
+      font-size: 17px;
+    }
+    .comp img{
+      height:70px;
+      width:80px;
+    }
+.thumbnail{
+  margin: 5px; 0 0 0;
+}
+.thumbnail h3{
+  font-size: 20px;
+
+}
+.footer h1{
+  font-size: 25px;
+
+}
+}
